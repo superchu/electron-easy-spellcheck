@@ -35,7 +35,7 @@ class SpellChecker extends EventEmitter {
         i--;
       }
 
-      return word.join();
+      return word.join('');
     }
 
     return sel.toString();
