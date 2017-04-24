@@ -1,0 +1,31 @@
+{
+  "name": "electron-easy-spellcheck",
+  "version": "1.0.0",
+  "description": "Yet another spellcheck library for electron",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./example/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superchu/electron-easy-spellcheck"
+  },
+  "keywords": [
+    "electron",
+    "spellchecker"
+  ],
+  "author": "Oscar Wallhult",
+  "license": "MIT",
+  "dependencies": {
+    "spellchecker": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.13",
+    "electron-editor-context-menu": "1.1.1",
+    "electron-prebuilt-compile": "1.6.4",
+    "typescript": "^2.2.2",
+    "tslib": "^1.6.1"
+  }
+}

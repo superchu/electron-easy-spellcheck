@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "importHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
